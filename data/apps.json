@@ -1,0 +1,82 @@
+{
+    "developer": {
+        "name": "Techsang Devs",
+        "email": "support@techsang.com",
+        "website": "https://techsang.com",
+        "privacyPolicy": "/privacy-policy.html"
+    },
+    "apps": [
+        {
+            "id": "sateek-toolkit",
+            "name": "Sateek Toolkit",
+            "tagline": "The ultimate utility app for Android.",
+            "icon": {
+                "type": "material",
+                "value": "handyman"
+            },
+            "rating": 4.8,
+            "reviews": "12K",
+            "downloads": "1M+",
+            "ageRating": "Everyone",
+            "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techsang.sateek",
+            "screenshots": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuDYaiOcq_sD_deCMnMySfxuc__sU5kiKrqrVIWsI2p2OO5QfoVFEH-9MCMkZBQNGZuLRoEuj5dEV4RW1BN-7lVrgnNmB7C6HTTK-cq9fK_y9IPP1vsWKmMV6qdyDNiHciM3J-Cla-GVW2b0h0Nz_ak8rxYMnfjxTGMCg6yOyP_zW1VHOltOKlLFWgvoZPhEpbdV0aVWrXWdkCLnklqpleC5cXvCQ2Vr5GLN8lXfRVPtn4BbZjjKlnU2quVH7XYn5B9dQUU2TaE0-Psy",
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuBnDCGRnQVAUq2GGqXPYxcGc55qnlnjxY1sb6ihZEr5igx3Qu1BaBtK7b8jQu6ovtVzLdkhzm41-5FqjRvSfgS71uqWh-Q8WT3plomvNuvfw-McdlxLousgqu8Krytjuc6t6ykuRhqeMq4UfBnSzrbNBlfduSo5ly_TbrkajeOU-GZP6z2enFgwCEYFfvf1vxYD-gp3yo0_3SzTXI4nrJSrmdCd8Vm7dKmac5ne4HnsmWK89j2M-xJiTHKknOwKs4RmD81itY9wOYXn"
+            ],
+            "about": {
+                "paragraphs": [
+                    "Experience the power of efficiency with Sateek Toolkit. Whether you are a power user or just looking to simplify your digital life.",
+                    "From system cleaning to network analysis, Sateek Toolkit handles it all with a minimal footprint and maximum performance."
+                ],
+                "benefits": [
+                    "Instant cache cleaning and memory optimization.",
+                    "Detailed battery usage analytics to prolong life.",
+                    "Secure app locker to protect your sensitive data.",
+                    "Ad-free experience for premium users."
+                ]
+            },
+            "info": {
+                "updatedOn": "Oct 24, 2023",
+                "size": "24 MB",
+                "version": "2.4.1",
+                "android": "8.0 and up"
+            }
+        },
+        {
+            "id": "bachat-box",
+            "name": "Bachat Box",
+            "tagline": "The ultimate money saving app for Android.",
+            "icon": {
+                "type": "material",
+                "value": "handyman"
+            },
+            "rating": 4.8,
+            "reviews": "12K",
+            "downloads": "1M+",
+            "ageRating": "Everyone",
+            "playStoreUrl": "https://play.google.com/store/apps/details?id=com.techsang.sateek",
+            "screenshots": [
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuDYaiOcq_sD_deCMnMySfxuc__sU5kiKrqrVIWsI2p2OO5QfoVFEH-9MCMkZBQNGZuLRoEuj5dEV4RW1BN-7lVrgnNmB7C6HTTK-cq9fK_y9IPP1vsWKmMV6qdyDNiHciM3J-Cla-GVW2b0h0Nz_ak8rxYMnfjxTGMCg6yOyP_zW1VHOltOKlLFWgvoZPhEpbdV0aVWrXWdkCLnklqpleC5cXvCQ2Vr5GLN8lXfRVPtn4BbZjjKlnU2quVH7XYn5B9dQUU2TaE0-Psy",
+                "https://lh3.googleusercontent.com/aida-public/AB6AXuBnDCGRnQVAUq2GGqXPYxcGc55qnlnjxY1sb6ihZEr5igx3Qu1BaBtK7b8jQu6ovtVzLdkhzm41-5FqjRvSfgS71uqWh-Q8WT3plomvNuvfw-McdlxLousgqu8Krytjuc6t6ykuRhqeMq4UfBnSzrbNBlfduSo5ly_TbrkajeOU-GZP6z2enFgwCEYFfvf1vxYD-gp3yo0_3SzTXI4nrJSrmdCd8Vm7dKmac5ne4HnsmWK89j2M-xJiTHKknOwKs4RmD81itY9wOYXn"
+            ],
+            "about": {
+                "paragraphs": [
+                    "Experience the power of efficiency with Sateek Toolkit. Whether you are a power user or just looking to simplify your digital life.",
+                    "From system cleaning to network analysis, Sateek Toolkit handles it all with a minimal footprint and maximum performance."
+                ],
+                "benefits": [
+                    "Instant cache cleaning and memory optimization.",
+                    "Detailed battery usage analytics to prolong life.",
+                    "Secure app locker to protect your sensitive data.",
+                    "Ad-free experience for premium users."
+                ]
+            },
+            "info": {
+                "updatedOn": "Oct 24, 2023",
+                "size": "24 MB",
+                "version": "2.4.1",
+                "android": "8.0 and up"
+            }
+        }
+    ]
+}

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html class="light" lang="en">
 
 <head>
@@ -12,9 +11,6 @@
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
         rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <script id="tailwind-config">
@@ -50,17 +46,13 @@
             font-family: 'Inter', sans-serif;
         }
 
-        /* Hide scrollbar for chrome/safari/opera */
         .no-scrollbar::-webkit-scrollbar {
             display: none;
         }
 
-        /* Hide scrollbar for IE, Edge and Firefox */
         .no-scrollbar {
             -ms-overflow-style: none;
-            /* IE and Edge */
             scrollbar-width: none;
-            /* Firefox */
         }
     </style>
 </head>
@@ -71,25 +63,24 @@
     <site-header active="apps"></site-header>
 
     <main class="flex-grow">
-        <!-- Main Container -->
         <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-8">
             <div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
-                <!-- Page Heading -->
                 <div class="flex flex-col gap-2 py-8 px-4">
                     <h1 class="text-slate-900 dark:text-white text-3xl md:text-5xl font-black tracking-tight">Apps &amp;
                         Products</h1>
                     <p class="text-slate-500 dark:text-slate-400 text-lg font-normal max-w-2xl">
                         Tools built by Techsang to simplify your digital life. Experience our commitment to quality and
-                        user experience.
+                        user experience across mobile and web.
                     </p>
                 </div>
-                <!-- Product Grid -->
+                <h2 class="text-2xl font-bold text-slate-900 dark:text-white px-4 mt-4 mb-2 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary">smartphone</span>
+                    Mobile Applications
+                </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
-                    <!-- Card 1: Sateek Toolkit -->
                     <div
                         class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
                         <div class="p-6 flex flex-col flex-grow items-start gap-4">
-                            <!-- Icon -->
                             <div
                                 class="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
                                 <span class="material-symbols-outlined" style="font-size: 32px;">construction</span>
@@ -111,17 +102,15 @@
                             </p>
                         </div>
                         <div class="px-6 pb-6 pt-2 mt-auto">
-                            <button onclick="location.href='/app-details.html'"
+                            <button
                                 class="w-full flex items-center justify-center rounded-full h-10 px-4 bg-white dark:bg-gray-700 border border-slate-200 dark:border-slate-600 text-primary dark:text-blue-400 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-600 transition-colors">
                                 View Details
                             </button>
                         </div>
                     </div>
-                    <!-- Card 2: Bachat Box -->
                     <div
                         class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
                         <div class="p-6 flex flex-col flex-grow items-start gap-4">
-                            <!-- Icon -->
                             <div
                                 class="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-400 to-teal-600 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
                                 <span class="material-symbols-outlined" style="font-size: 32px;">savings</span>
@@ -149,11 +138,9 @@
                             </button>
                         </div>
                     </div>
-                    <!-- Card 3: Upcoming / Placeholder -->
                     <div
                         class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden cursor-default h-full opacity-70 hover:opacity-100">
                         <div class="p-6 flex flex-col flex-grow items-start gap-4">
-                            <!-- Icon -->
                             <div
                                 class="w-16 h-16 rounded-2xl bg-slate-100 dark:bg-slate-700 border-2 border-dashed border-slate-300 dark:border-slate-500 flex items-center justify-center text-slate-400 dark:text-slate-500 mb-2">
                                 <span class="material-symbols-outlined" style="font-size: 32px;">rocket_launch</span>
@@ -178,9 +165,181 @@
                         </div>
                     </div>
                 </div>
+                <h2 class="text-2xl font-bold text-slate-900 dark:text-white px-4 mt-12 mb-2 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary">shopping_bag</span>
+                    Shopify Websites
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+                    <div
+                        class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
+                        <div class="p-6 flex flex-col flex-grow items-start gap-4">
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-gradient-to-br from-rose-400 to-pink-600 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
+                                <span class="material-symbols-outlined" style="font-size: 32px;">checkroom</span>
+                            </div>
+                            <div class="flex flex-col gap-1 w-full">
+                                <h3 class="text-slate-900 dark:text-white text-xl font-bold leading-tight">Luxe &amp; Co
+                                </h3>
+                                <div class="flex items-center gap-1 text-slate-400 text-xs font-medium">
+                                    <span
+                                        class="bg-rose-50 dark:bg-rose-900/30 text-rose-600 dark:text-rose-300 px-2 py-1 rounded-md">Fashion</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-500 dark:text-slate-300 text-sm leading-relaxed line-clamp-3">
+                                A high-end fashion retailer on Shopify with custom filtering, lookbook integrations, and
+                                a seamless checkout experience.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-6 pt-2 mt-auto">
+                            <button
+                                class="w-full flex items-center justify-center rounded-full h-10 px-4 bg-white dark:bg-gray-700 border border-slate-200 dark:border-slate-600 text-primary dark:text-blue-400 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-600 transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
+                        <div class="p-6 flex flex-col flex-grow items-start gap-4">
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-gradient-to-br from-green-400 to-emerald-600 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
+                                <span class="material-symbols-outlined" style="font-size: 32px;">nutrition</span>
+                            </div>
+                            <div class="flex flex-col gap-1 w-full">
+                                <h3 class="text-slate-900 dark:text-white text-xl font-bold leading-tight">Fresh Mart
+                                </h3>
+                                <div class="flex items-center gap-1 text-slate-400 text-xs font-medium">
+                                    <span
+                                        class="bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-300 px-2 py-1 rounded-md">Grocery</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-500 dark:text-slate-300 text-sm leading-relaxed line-clamp-3">
+                                Organic skincare and grocery store featuring subscription boxes, local delivery
+                                scheduling, and bundle builders.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-6 pt-2 mt-auto">
+                            <button
+                                class="w-full flex items-center justify-center rounded-full h-10 px-4 bg-white dark:bg-gray-700 border border-slate-200 dark:border-slate-600 text-primary dark:text-blue-400 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-600 transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
+                        <div class="p-6 flex flex-col flex-grow items-start gap-4">
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-400 to-amber-600 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
+                                <span class="material-symbols-outlined" style="font-size: 32px;">headphones</span>
+                            </div>
+                            <div class="flex flex-col gap-1 w-full">
+                                <h3 class="text-slate-900 dark:text-white text-xl font-bold leading-tight">Tech Gear
+                                </h3>
+                                <div class="flex items-center gap-1 text-slate-400 text-xs font-medium">
+                                    <span
+                                        class="bg-orange-50 dark:bg-orange-900/30 text-orange-600 dark:text-orange-300 px-2 py-1 rounded-md">Electronics</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-500 dark:text-slate-300 text-sm leading-relaxed line-clamp-3">
+                                A high-volume dropshipping store for electronics with real-time inventory sync and
+                                multi-currency support.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-6 pt-2 mt-auto">
+                            <button
+                                class="w-full flex items-center justify-center rounded-full h-10 px-4 bg-white dark:bg-gray-700 border border-slate-200 dark:border-slate-600 text-primary dark:text-blue-400 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-600 transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-900 dark:text-white px-4 mt-12 mb-2 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-primary">public</span>
+                    General Websites
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+                    <div
+                        class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
+                        <div class="p-6 flex flex-col flex-grow items-start gap-4">
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-gradient-to-br from-slate-500 to-gray-700 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
+                                <span class="material-symbols-outlined" style="font-size: 32px;">apartment</span>
+                            </div>
+                            <div class="flex flex-col gap-1 w-full">
+                                <h3 class="text-slate-900 dark:text-white text-xl font-bold leading-tight">EstatePro
+                                </h3>
+                                <div class="flex items-center gap-1 text-slate-400 text-xs font-medium">
+                                    <span class="bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded-md">Real Estate</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-500 dark:text-slate-300 text-sm leading-relaxed line-clamp-3">
+                                A modern real estate listing platform featuring virtual tours, agent dashboards, and
+                                interactive map search.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-6 pt-2 mt-auto">
+                            <button
+                                class="w-full flex items-center justify-center rounded-full h-10 px-4 bg-white dark:bg-gray-700 border border-slate-200 dark:border-slate-600 text-primary dark:text-blue-400 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-600 transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
+                        <div class="p-6 flex flex-col flex-grow items-start gap-4">
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-400 to-blue-600 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
+                                <span class="material-symbols-outlined" style="font-size: 32px;">medical_services</span>
+                            </div>
+                            <div class="flex flex-col gap-1 w-full">
+                                <h3 class="text-slate-900 dark:text-white text-xl font-bold leading-tight">MediCare
+                                    Portal</h3>
+                                <div class="flex items-center gap-1 text-slate-400 text-xs font-medium">
+                                    <span
+                                        class="bg-cyan-50 dark:bg-cyan-900/30 text-cyan-600 dark:text-cyan-300 px-2 py-1 rounded-md">Healthcare</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-500 dark:text-slate-300 text-sm leading-relaxed line-clamp-3">
+                                Secure patient portal for healthcare providers. Features appointment booking,
+                                telemedicine integration, and records management.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-6 pt-2 mt-auto">
+                            <button
+                                class="w-full flex items-center justify-center rounded-full h-10 px-4 bg-white dark:bg-gray-700 border border-slate-200 dark:border-slate-600 text-primary dark:text-blue-400 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-600 transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="group flex flex-col bg-white dark:bg-gray-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer h-full">
+                        <div class="p-6 flex flex-col flex-grow items-start gap-4">
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-gradient-to-br from-violet-500 to-purple-600 shadow-lg flex items-center justify-center text-white mb-2 group-hover:scale-105 transition-transform">
+                                <span class="material-symbols-outlined" style="font-size: 32px;">school</span>
+                            </div>
+                            <div class="flex flex-col gap-1 w-full">
+                                <h3 class="text-slate-900 dark:text-white text-xl font-bold leading-tight">LearnSphere
+                                </h3>
+                                <div class="flex items-center gap-1 text-slate-400 text-xs font-medium">
+                                    <span
+                                        class="bg-violet-50 dark:bg-violet-900/30 text-violet-600 dark:text-violet-300 px-2 py-1 rounded-md">Education</span>
+                                </div>
+                            </div>
+                            <p class="text-slate-500 dark:text-slate-300 text-sm leading-relaxed line-clamp-3">
+                                An interactive LMS for educational institutions. Supports video courses, quizzes,
+                                student progress tracking, and certification.
+                            </p>
+                        </div>
+                        <div class="px-6 pb-6 pt-2 mt-auto">
+                            <button
+                                class="w-full flex items-center justify-center rounded-full h-10 px-4 bg-white dark:bg-gray-700 border border-slate-200 dark:border-slate-600 text-primary dark:text-blue-400 text-sm font-bold hover:bg-slate-50 dark:hover:bg-gray-600 transition-colors">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Client Services CTA Section -->
         <div class="w-full bg-slate-50 dark:bg-[#151e2c] border-t border-slate-100 dark:border-slate-800 mt-10">
             <div class="px-4 md:px-10 lg:px-40 flex justify-center py-16 md:py-24">
                 <div class="layout-content-container flex flex-col max-w-[960px] w-full text-center items-center gap-8">
@@ -199,11 +358,11 @@
                         </p>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
-                        <button
+                        <button onclick="location='/services.html'"
                             class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary hover:bg-blue-600 text-white text-base font-bold transition-all shadow-lg shadow-blue-500/20">
                             View Services
                         </button>
-                        <button
+                        <button onclick="location='/contact.html'"
                             class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white hover:bg-slate-50 dark:hover:bg-slate-700 text-base font-medium transition-all">
                             Contact Us
                         </button>
