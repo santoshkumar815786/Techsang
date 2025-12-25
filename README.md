@@ -10,6 +10,7 @@ We work on both **our own products** and **client projects**, helping ideas turn
 ## 🚀 What We Do
 
 ### 📱 Android App Development
+
 - Native Android apps (Kotlin)
 - Clean & modern UI/UX
 - App idea validation
@@ -17,6 +18,7 @@ We work on both **our own products** and **client projects**, helping ideas turn
 - Maintenance & feature updates
 
 ### 🌍 Web Development
+
 - Business & portfolio websites
 - Landing pages
 - E-commerce websites
@@ -25,6 +27,7 @@ We work on both **our own products** and **client projects**, helping ideas turn
 - WordPress websites
 
 ### ⚙️ Backend & API Services
+
 - REST API development
 - Backend architecture
 - Database design
@@ -32,6 +35,7 @@ We work on both **our own products** and **client projects**, helping ideas turn
 - Scalable and secure systems
 
 ### 💡 Idea to Reality
+
 Have an idea but don’t know where to start?  
 We help you design, build, launch, and maintain your digital product.
 
@@ -40,14 +44,18 @@ We help you design, build, launch, and maintain your digital product.
 ## 📦 Our Apps
 
 ### **Sateek Toolkit**
+
 Accurate finance and utility tools including:
+
 - Simple Interest calculator
 - Compound Interest calculator
 - GST calculator
 - More practical daily-use tools
 
 ### **Bachat Box**
+
 A smart savings and expense tracking app designed to help users:
+
 - Build daily saving habits
 - Track expenses easily
 - Achieve financial goals consistently
@@ -70,3 +78,5 @@ Founder & Developer at Techsang
 This repository contains the **official Techsang website**, built as a **static site** and hosted using **GitHub Pages**.
 
 ### 🔗 Live Website
+
+Visit our website: **[techsang.com](https://techsang.com)**
